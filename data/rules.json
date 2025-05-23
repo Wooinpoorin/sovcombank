@@ -1,0 +1,178 @@
+{
+  "fuel_auto": {
+    "trigger": {
+      "purchase_categories": [
+        "Заправки",
+        "Авто"
+      ],
+      "min_count": 2
+    },
+    "phrase_blocks": [
+      "intro",
+      "base_offer",
+      "features",
+      "hook",
+      "closing"
+    ],
+    "target_product": "Автокредит Альтернатива"
+  },
+  "home_improvement": {
+    "trigger": {
+      "purchase_categories": [
+        "Мебель и товары для дома",
+        "Товары для ремонта"
+      ],
+      "min_count": 2
+    },
+    "phrase_blocks": [
+      "intro",
+      "hook",
+      "features",
+      "relevance",
+      "closing"
+    ],
+    "target_product": "Кредит под залог недвижимости"
+  },
+  "family_purchases": {
+    "trigger": {
+      "purchase_categories": [
+        "Детские товары",
+        "Продукты"
+      ],
+      "min_count": 2
+    },
+    "phrase_blocks": [
+      "intro",
+      "base_offer",
+      "features",
+      "relevance",
+      "closing"
+    ],
+    "target_product": "Кредит на карту Прайм Плюс"
+  },
+  "health_care": {
+    "trigger": {
+      "purchase_categories": [
+        "Аптеки",
+        "Здоровье"
+      ],
+      "min_count": 2
+    },
+    "phrase_blocks": [
+      "intro",
+      "features",
+      "hook",
+      "closing"
+    ],
+    "target_product": "Кредит на карту Прайм Плюс"
+  },
+  "lifestyle_luxury": {
+    "trigger": {
+      "purchase_categories": [
+        "Ювелирные изделия",
+        "Косметика и парфюмерия",
+        "Одежда и Аксессуары"
+      ],
+      "min_count": 2
+    },
+    "phrase_blocks": [
+      "intro",
+      "hook",
+      "base_offer",
+      "features",
+      "closing"
+    ],
+    "target_product": "Кредит на карту Прайм Плюс"
+  },
+  "travel_offer": {
+    "trigger": {
+      "purchase_categories": [
+        "Путешествия",
+        "Такси и доставка"
+      ],
+      "min_count": 2
+    },
+    "phrase_blocks": [
+      "intro",
+      "base_offer",
+      "features",
+      "closing"
+    ],
+    "target_product": "Кредит на карту Прайм Плюс"
+  },
+  "digital_life": {
+    "trigger": {
+      "purchase_categories": [
+        "Электроника",
+        "Услуги"
+      ],
+      "min_count": 2
+    },
+    "phrase_blocks": [
+      "intro",
+      "hook",
+      "features",
+      "relevance",
+      "closing"
+    ],
+    "target_product": "Кредит на карту Прайм Плюс"
+  },
+  "education_support": {
+    "trigger": {
+      "purchase_categories": [
+        "Образование"
+      ],
+      "min_count": 1
+    },
+    "phrase_blocks": [
+      "intro",
+      "features",
+      "hook",
+      "closing"
+    ],
+    "target_product": "Кредит на карту Прайм Плюс"
+  },
+  "pension_custom": {
+    "trigger": {
+      "client_category": "Пенсионер"
+    },
+    "phrase_blocks": [
+      "intro",
+      "base_offer",
+      "features",
+      "closing"
+    ],
+    "target_product": "Кредит на карту Прайм Плюс"
+  },
+  "short_term_reloan": {
+    "trigger": {
+      "active_credit_remaining_months": 6
+    },
+    "phrase_blocks": [
+      "intro",
+      "base_offer",
+      "features",
+      "closing"
+    ],
+    "target_product": "Переоформление"
+  },
+  "partner_general": {
+    "trigger": {
+      "purchase_categories": [
+        "Продукты",
+        "Кафе и рестораны",
+        "Красота",
+        "Одежда и Аксессуары"
+      ],
+      "min_count": 3
+    },
+    "phrase_blocks": [
+      "intro",
+      "base_offer",
+      "hook",
+      "relevance",
+      "closing"
+    ],
+    "target_product": "Кредит на карту Прайм Плюс"
+  }
+}
